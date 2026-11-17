@@ -115,8 +115,6 @@ python src/takeoff.py
 python src/box_flight.py
 ```
 
-> ⚠️ **Safety:** fly in a clear indoor space, keep the battery charged, start with `takeoff.py` at low height, and be ready to cut power. The deck check exists so the drone only takes off when its positioning hardware is detected.
-
 ## What I learned
 
 - **Thrust-only manual control drifts.** When flown with thrust alone, the drone climbed in proportion to thrust but also moved forward because its weight is not perfectly balanced, which is why closed-loop position control matters.
@@ -160,9 +158,5 @@ crazyflie-flight-control/
 - [LPS node configuration](https://www.bitcraze.io/documentation/repository/lps-node-firmware/master/userguides/configure-mode/)
 - [crazyswarm2 (ROS 2)](https://imrclab.github.io/crazyswarm2/overview.html)
 - [Crazyflie quadcopter simulation (MATLAB File Exchange, Wookshik Kim)](https://www.mathworks.com/matlabcentral/fileexchange/65469-crazyflie-quadcoptersimulation-using-simmechanics)
-
-## Acknowledgements
-
-Supervisor Dr. Raheel Quraishi; NESCOM for equipment and resources; the Institute of Space Technology for laboratory access.
 
 
