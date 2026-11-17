@@ -1,11 +1,11 @@
 # Crazyflie 2.1: Flight Control, Telemetry Logging & 3D Visualisation
 
-Python control and telemetry for a [Bitcraze Crazyflie 2.1](https://www.bitcraze.io/products/crazyflie-2-1/) nano-quadcopter, plus the surrounding experiments from an internship at **NESCOM** (National Engineering and Scientific Commission): hardware assembly, a MATLAB/Simulink flight simulation, UWB indoor positioning with the Loco Positioning System, and ROS 2 / RViz2 visualisation.
+Python control and telemetry for a [Bitcraze Crazyflie 2.1](https://www.bitcraze.io/products/crazyflie-2-1/) nano-quadcopter,  hardware assembly, a MATLAB/Simulink flight simulation, UWB indoor positioning with the Loco Positioning System, and ROS 2 / RViz2 visualisation.
 
-> **Authors:** Amna Ahmad (EE-19, Institute of Space Technology) · **Supervisor:** Dr. Raheel Quraishi
+> **Authors:** Amna Ahmad (EE-19, Institute of Space Technology) · 
 > Full write-up: [`docs/internship_report.pdf`](docs/internship_report.pdf)
 
-<!-- Add one line on what YOU personally did, if the work was split. -->
+>
 
 <p align="center">
   <img src="results/plots/hover_position_plots.png" height="240" alt="Logged x, y and z position during takeoff, hover and landing">
